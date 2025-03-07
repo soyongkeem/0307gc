@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOYONG KEEM - GeoCities Edition</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-image: url(bg.gif);
+            background-size: cover;
+            background-repeat: repeat;
+            color: #ffffff;
+            font-family: "Courier New", monospace;
+            text-align: center;
+        }
+        .earth {
+    width: 200px; /* 원하는 크기로 조정 */
+    height: auto; /* 비율 유지 */
+}
+.HEARTFRAME {
+    width: 250px; /* 원하는 크기로 조정 */
+    height: auto; /* 비율 유지 */
+    margin: 50px; /* 상하좌우 100px 여백 추가 */
+}
+
+.dogsnowglobe {
+    width: 100px; /* 원하는 크기로 조정 */
+    height: auto; /* 비율 유지 */
+    margin: 50px; /* 상하좌우 100px 여백 추가 */
+}
+
+.girlsnowglobe {
+    width: 100px; /* 원하는 크기로 조정 */
+    height: auto; /* 비율 유지 */
+    margin: 50px; /* 상하좌우 100px 여백 추가 */
+}
+
+
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            padding: 10px;
+            position: fixed;
+            border-right: 1px solid rgb(255, 255, 255);
+        }
+
+        .sidebar a {
+            display: block;
+            color: cyan;
+            text-decoration: none;
+            padding: 10px;
+            border-bottom: 1.8px dashed rgb(255, 255, 255);
+            font-size: 16px;
+        }
+
+
+
+        .container {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        .menu {
+            color: cyan;
+        }
+        .blink {
+            color: greenyellow;
+            animation: blinker 0.8s step-start infinite;
+        }
+
+        .marquee {
+            font-size: 18px;
+            font-weight: bold;
+            color: yellow;
+        }
+
+        .title-frame {
+            display: inline-block;
+            background-image: url('titleframe.gif');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="sidebar">
+        <h3 class="menu">MENU</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="container">
+        <marquee class="marquee">Welcome to the Ultimate GeoCities Experience!</marquee>
+        <h1 class="title-frame blink">Soyong Keem's Web Realm</h1>
+
+        <section id="home">
+            <h2>Welcome to My World</h2>
+            <img src="earth.gif" alt="Spinning Earth" class="earth">
+        </section>
+    </div>
+    <img src="HEARTFRAME.gif" class="HEARTFRAME">
+    <img src="dogsnowglobe.gif" class="dogsnowglobe">
+    <img src="girlsnowglobe.gif" class="girlsnowglobe">
+</body>
+</html>
